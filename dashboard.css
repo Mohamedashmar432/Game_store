@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#bgc{
+    background-repeat: no-repeat;
+    border-radius: 150px;
+    background-position: center;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    background-color: pink;
+}
+
+#navbar ul{
+    display: flex;
+    text-align: center;
+}
+
+#navbar ul li{
+    display: flex;
+    list-style: none;
+    font-size: 1 rem;
+}
+
+
+#navbar ul li a{
+    display: flex;
+    color: black;
+    margin: 5px 12px;
+    padding: 5px 8px 2px 8px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: valorant;
+}
+
+#navbar ul li a:hover{
+
+    text-decoration: none;
+    background: #EB0029;
+    color: white;
+}
+
+.btn a{
+    display: flex;
+    background-color: #101823;
+    color: white;
+    margin-right: 16px;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 12px 10px 8px ;
+    text-decoration: none;
+    font-family: valorant;
+
+}
+
+.btn a:hover{
+    background-color: #EB0029;
+    color: white;
+    margin-right: 16px;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 12px 10px 8px ;
+    text-decoration: none;
+    font-family: valorant;
+
+}
+
+#logo{
+    margin: 10px 10px;
+}
+
+#logo img{
+    width: 70px;
+    margin: 5px 5px;
+}
+
+.dash{
+    margin-top: 50px;
+}
+
+.dash h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: valorant;
+    font-size: 30px;
+    background-color: #FF4655;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0px 600px;
+}
+
+.user-details{
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px 500px;
+    background-color:#101823;
+}
+
+.detail{
+    margin: 0px 130px;
+    font-family: valorant;
+}
+
+.details{
+    text-align: center;
+    list-style: none;
+    margin: 20px;
+    padding: 20px;
+    font-family: valorant;
+    font-size: 20px;
+    color: #FF4655;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.container .user-img{
+    padding: 30px;
+    width: 200px;
+    border-radius: 100%;
+}
+
+.container h2{
+    color: #EB0029;
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+
+

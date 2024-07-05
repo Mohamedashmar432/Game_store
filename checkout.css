@@ -1,0 +1,222 @@
+
+body{
+	background-image: url(assets/wallpaperflare.com_wallpaper\ \(5\).jpg);
+	background-size: cover;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:sticky;
+    background-color: whitesmoke;
+}
+
+#navbar ul{
+    display: flex;
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+#navbar ul li{
+    display: flex;
+    list-style: none;
+    font-size: 1 rem;
+}
+
+
+#navbar ul li a{
+    display: flex;
+    color: #101823;
+    margin: 5px 12px;
+    padding: 5px 8px 2px 8px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: valorant;
+}
+
+#navbar ul li a:hover{
+
+    text-decoration: none;
+    background: #EB0029;
+    color: white;
+}
+
+.btn a{
+    display: flex;
+    background-color: #101823;
+    color: white;
+    margin-right: 16px;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 12px 10px 8px ;
+    text-decoration: none;
+    font-family: valorant;
+
+}
+
+.btn a:hover{
+    background-color: #EB0029;
+    color: white;
+    margin-right: 16px;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 12px 10px 8px ;
+    text-decoration: none;
+    font-family: valorant;
+
+}
+
+#logo{
+    margin: 10px 10px;
+ 
+}
+
+#logo img{
+    width: 70px;
+    margin: 5px 5px;
+  
+}
+
+*{padding:0; margin:0; box-sizing: border-box; font-family:sans-serif;}
+section{
+	height: 700px;
+	font-size: 1.2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+.container{
+	border: 2px solid black;
+	backdrop-filter: blur(40px);
+	max-width: 900px;
+	min-height: 500px;
+	display: flex;
+	justify-content:space-between;
+	align-items: flex-start;
+	padding: 0.5rem 1.5rem;
+	border-radius: 20px;
+}
+.left{
+	flex-basis: 100%;
+}
+
+h3{
+	color: white;
+	margin: 16px 20px;
+	text-decoration: underline 2px;
+	font-family: valorant;
+}
+
+
+.card{
+	margin: 20px 20px;
+	width: 80%;
+	
+}
+
+.card img{
+	width: 100%;
+	border-radius: 20px;
+	padding: 10px 10px;
+}
+
+.game-name{
+	
+	padding: 10px;
+}
+
+.name{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.name li{
+	
+	list-style: none;
+	color: white;
+
+}
+
+.name li span{
+	font-family: valorant;
+
+}
+
+hr{
+	border: 1px solid whitesmoke;
+	border-radius: 5px;
+}
+
+.order ul{
+	color: whitesmoke;
+	padding: 5px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.right{
+	flex-basis: 100%;
+}
+form{
+	padding: 1rem;
+}
+
+.checkout{
+	color: whitesmoke;
+}
+
+form input[type="text"]{
+	width: 100%;
+	padding: 0.5rem 0.7rem;
+	margin: 0.5rem 0;
+	outline: none;
+	border-radius: 5px;
+}
+
+#zip{
+	display: flex;
+	align-items: center;
+	justify-content:space-evenly ;
+	margin-top: 0.5rem;
+}
+#zip select{
+	padding: 0.5rem 0.7rem;
+	border-radius: 5px;
+}
+#zip input[type="number"]{
+	border-radius: 5px;
+	padding: 0.5rem 0.7rem;	
+}
+
+input[type="submit"]{
+	width: 100%;
+	padding: 0.7rem 1.5rem;
+	background: #EB0029;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	margin-top: 1rem;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover{
+	background: #2c3e50;
+}
+
+
+@media only screen and (max-width: 770px){
+	.container{
+		flex-direction: column;
+	}
+	body{
+		overflow-x: hidden;
+	}
+}
+
+
+
